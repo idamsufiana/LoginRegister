@@ -1,2 +1,2 @@
 # LoginRegister
-Login Register using jwt token
+Login Register app using jwt token
