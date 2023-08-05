@@ -1,0 +1,33 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsIm5hbWUiOiJpZGEgbXMiLCJlbWFpbCI6ImlkYUBnbWFpbC5jb20iLCJpYXQiOjE2ODk3MjI2NjEsImV4cCI6MTY4OTcyMjY3Nn0.OPba2W4k09gZiolmvOqpC_xWnlPyQd5-_bAV09EnvJw
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "ida ms",
+    "email": "ida@gmail.com",
+    "password": "1234",
+    "confPassword": "1234"
+}
+
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "ida@gmail.com",
+    "password": "1234"
+}
+
+###
+GET http://localhost:5000/token
+
+
+
+###
+DELETE http://localhost:5000/logout
