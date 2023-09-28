@@ -3,9 +3,9 @@
 Simple apps login dan register using jwt token,  
 Exprees js and React js  
 
-# Run   
+## Run   
 Backend : npm run devStart,   
 Frontend : npm start  
 
-# Notes
+## Notes
 Complete module : https://gitlab.com/idams/loginregister
